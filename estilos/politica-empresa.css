@@ -1,0 +1,89 @@
+.politica-empresa {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.politica-empresa h3 {
+  margin: 10px 0px;
+  padding-bottom: 2px;
+}
+
+.politica-missao img,
+.politica-valores img,
+.politica-visao img {
+  box-shadow: 0px -3px 6px 0px #ddd3af;
+}
+
+.politica-missao {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px 0px 1px 0px #ddd3af;
+  margin: 0px 20px;
+  padding: 10px 0px;
+  border-radius: 4px;
+}
+
+.politica-missao div {
+  height: 213px;
+  width: 400px;
+  align-items: baseline;
+  text-align: justify;
+  line-height: 1.2rem;
+}
+
+.politica-missao h3 {
+  border-bottom: 4px solid #ddd3af;
+  width: 20%;
+}
+
+.politica-visao {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 20px;
+  box-shadow: 0px 0px 1px 0px #ddd3af;
+  padding: 10px 0px;
+  border-radius: 4px;
+}
+
+.politica-visao div {
+  height: 213px;
+  width: 400px;
+  align-items: baseline;
+  text-align: justify;
+  line-height: 1.2rem;
+}
+
+.politica-visao h3 {
+  border-bottom: 4px solid #ddd3af;
+  width: 20%;
+  text-align: end;
+  position: relative;
+  right: -80%;
+}
+
+.politica-valores {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px 0px 1px 0px #ddd3af;
+  margin: 0px 20px;
+  padding: 10px 0px;
+  border-radius: 4px;
+}
+
+.politica-valores div {
+  height: 213px;
+  width: 400px;
+  align-items: baseline;
+  text-align: justify;
+  line-height: 1.2rem;
+}
+
+.politica-valores h3 {
+  border-bottom: 4px solid #ddd3af;
+  width: 20%;
+}

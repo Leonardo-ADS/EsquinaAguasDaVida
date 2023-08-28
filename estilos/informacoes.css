@@ -1,0 +1,24 @@
+.informacoes h1 {
+  padding-bottom: 20px;
+  grid-column: 1 / -1;
+}
+
+.informacoes p {
+  text-align: justify;
+  padding: 0 20px;
+}
+
+.informacoes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 0px 20px;
+}
+
+.informacoes-produtos {
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+}
+
+

@@ -1,0 +1,71 @@
+@media (max-width: 767px) {
+  /* cabecalho */
+  .header {
+    display: block;
+  }
+
+  .header h1 {
+    border-bottom: 1px solid #ffffff;
+    text-align: center;
+  }
+
+  .header h1 a {
+    font-size: 16px;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  ul.header-menu {
+    padding: 0px;
+  }
+  .header-menu {
+    display: inline-block;
+  }
+
+  .header-menu a {
+    padding: 1px 0px;
+    margin: 0px;
+  }
+  /* sobre empresa */
+  .foto {
+    display: none;
+  }
+
+  /* produdos */
+
+  .titulo-produto {
+    font-size: 0.9rem;
+    padding: 0px;
+  }
+
+  section.produtos {
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+/* informações */
+.informacoes h1{
+  font-size: 16px;
+}
+.informacoes img {
+  display: none;
+}
+.informacoes {
+  display: flex;
+  flex-direction: column;
+}
+
+
+  /* rodape */
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .copy {
+    display: none;
+  }
+}
